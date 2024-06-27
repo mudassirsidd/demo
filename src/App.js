@@ -7,13 +7,9 @@ function App() {
   return (
     <>
     <div className="App">
-   <form action=""onSubmit={handleSubmit(onSubmit)}>
-     <input {...register("username")}type="text" />
-     <br/>
-<input {...register("password")}type="password" />
-<br/>
-<input type="submit" value="submit" />
-</form>
+      <h1>mudassir siddiqui</h1>
+      <h2>hello</h2>
+   
     </div>
     </>
   );

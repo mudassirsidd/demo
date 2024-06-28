@@ -1,17 +1,12 @@
 
-import './App.css';
+import LoginRegister from './componant/LoginRegister/LoginResister';
 
-function App() {
-  
-  const onSubmit = (data) =>console.log(data)
-  return (
-    <>
-    <div className="App">
-      <h1>mudassir siddiqui</h1>
-      <h2>hello</h2>
-   <h3>tipu</h3>
-    </div>
-    </>
+function App(){ 
+  return(
+    <div>
+    <LoginRegister />
+     </div>
+    
   );
 }
 
